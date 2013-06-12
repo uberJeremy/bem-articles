@@ -15,7 +15,7 @@
     }
 ```
 
-## Примечания
+## Notes to consider while constructing your deps.js for your project:
 
 ### 1. Root blocks and elements start from naming a file, therefore it's optional to create the following file with the following data:
 
