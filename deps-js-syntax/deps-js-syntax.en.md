@@ -1,6 +1,6 @@
 # The Syntax for `deps.js`
 
-## The complete implimentation of the deps object:
+## The complete implementation of the deps object:
 
 ```js
     {
