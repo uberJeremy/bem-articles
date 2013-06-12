@@ -14,3 +14,20 @@
         noDeps : [  ],         // It's possible to exclude some blocks, for example: `[ 'i-bem__dom_init_auto' ]`
     }
 ```
+
+## Примечания
+
+### 1. Root blocks and elements start from naming a file, therefore it's optional to create the following file with the following data:
+
+For the file named: `b1.deps.js` write according to this pattern:
+
+```js
+    ({
+      block : 'b1',
+      mustDeps : { block : 'b2' }
+    })
+
+    ({
+      mustDeps : { block : 'b2' }
+    })
+```
