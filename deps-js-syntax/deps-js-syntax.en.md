@@ -8,9 +8,9 @@
         elem  : 'elem',
         mod   : 'modName',
         val   : 'modValue',
-        tech  : 'techName',  // технология, для которой собираются зависимости (например, js)
-        mustDeps   : [],     // подключатся до блока
-        shouldDeps : [],     // порядок подключения не важен (важно лишь подключить)
-        noDeps : [],         // можно отменить какую-то зависимость (например, i-bem__dom_init_auto)
+        tech  : 'techName',    // file extention for this dependency (e.g. if javaScript `tech : '.js'`)
+        mustDeps   : [  ],     // Array of blocks connected to this dependency
+        shouldDeps : [  ],     // The order of connected blocks is not important (important that they connect)
+        noDeps : [  ],         // It's possible to exclude some blocks, for example: `[ 'i-bem__dom_init_auto' ]`
     }
 ```
