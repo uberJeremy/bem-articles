@@ -69,7 +69,7 @@ Or, like this:
              <span class="article-author__name">Vladimir Varankin (Владимир Варанкин),
         </div>
         <div class="article-author__row">
-            Team Leader of the Interface Designers in Yandex (Ведущий разработчик интерфейсов в Яндексе)
+            Lead Frontend Developer in Yandex (Ведущий разработчик интерфейсов в Яндексе)
         </div>
         <div class="article-author__row">
              <a class="article-author__social-icon b-link" target="_blank" href="http://twitter.com/tvii">twitter.com/tvii</a>
